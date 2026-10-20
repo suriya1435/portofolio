@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Suriya V — Developer and DevOps portfolio showcasing software, databases, and deployment projects.">
+  <title>Suriya V | Developer & DevOps</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Suriya home"><span class="brand-mark">S</span><span>suriya<span class="brand-dot">.</span>dev</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#resume">Résumé</a>
+        <a class="nav-contact" href="#contact">Let's talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES</div>
+        <p class="hero-kicker">HELLO, I'M</p>
+        <h1>Suriya V<span class="accent">.</span><br><span class="outline-text">Developer</span></h1>
+        <p class="hero-description">I build dependable applications, manage databases, and help ship software through reliable deployment workflows.</p>
+        <div class="hero-tags"><span>Python & Django</span><span>Odoo Development</span><span>DevOps</span><span>Database Administration</span></div>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="button button-ghost" href="#contact">Get in touch <span>↗</span></a>
+        </div>
+        <div class="hero-socials"><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a><span></span><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="visual-orbit orbit-a"></div><div class="visual-orbit orbit-b"></div>
+        <div class="code-window">
+          <div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>portfolio.py</span><span class="window-lock">● LOCAL</span></div>
+          <div class="code-content">
+            <div><span class="line-no">01</span><span class="code-purple">class</span> <span class="code-green">Developer</span>:</div>
+            <div><span class="line-no">02</span>&nbsp;&nbsp;<span class="code-purple">def</span> <span class="code-blue">__init__</span>(self):</div>
+            <div><span class="line-no">03</span>&nbsp;&nbsp;&nbsp;&nbsp;self.name = <span class="code-orange">"Suriya V"</span></div>
+            <div><span class="line-no">04</span>&nbsp;&nbsp;&nbsp;&nbsp;self.focus = [</div>
+            <div><span class="line-no">05</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-orange">"Development"</span>,</div>
+            <div><span class="line-no">06</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-orange">"Automation"</span>,</div>
+            <div><span class="line-no">07</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-orange">"Reliable systems"</span></div>
+            <div><span class="line-no">08</span>&nbsp;&nbsp;&nbsp;&nbsp;]</div>
+            <div><span class="line-no">09</span>&nbsp;&nbsp;<span class="code-purple">def</span> <span class="code-blue">build</span>(self):</div>
+            <div><span class="line-no">10</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-purple">return</span> <span class="code-orange">"Ideas → Impact"</span><span class="cursor">▋</span></div>
+          </div>
+          <div class="window-bottom"><span><span class="mini-green"></span> Ready to build</span><span>UTF-8&nbsp; · &nbsp;Python</span></div>
+        </div>
+        <div class="float-card float-card-top"><span class="float-icon">⌘</span><span><strong>Build</strong><small>Clean solutions</small></span></div>
+        <div class="float-card float-card-bottom"><span class="float-icon green-icon">↗</span><span><strong>Deploy</strong><small>Ship with confidence</small></span></div>
+        <div class="visual-caption">CODE WITH PURPOSE <span>✳</span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="section-heading reveal"><p class="section-index">01 / ABOUT</p><h2>Curious mind.<br><span class="muted">Practical builder.</span></h2></div>
+        <div class="about-copy reveal">
+          <p class="lead">I’m a developer with an interest in building useful applications and keeping the systems behind them running smoothly.</p>
+          <p>My work and learning span Python, Django, Odoo, SQL databases, source control, CI/CD workflows, and application deployment. I enjoy troubleshooting issues, improving reliability, and learning tools that make software delivery better.</p>
+          <div class="about-facts"><div><strong>01</strong><span>Application development</span></div><div><strong>02</strong><span>Database operations</span></div><div><strong>03</strong><span>Deployment & troubleshooting</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading reveal"><p class="section-index">02 / TOOLKIT</p><h2>Skills that bring<br><span class="muted">ideas to life.</span></h2><p class="section-subtitle">A practical toolkit across development, data, and delivery.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-card-top"><span class="skill-symbol purple">⌘</span><span class="skill-count">01</span></div><h3>Development</h3><p>Build and maintain web applications and backend services.</p><div class="skill-pills"><span>Python</span><span>Django</span><span>Odoo</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>REST APIs</span></div></article>
+        <article class="skill-card reveal"><div class="skill-card-top"><span class="skill-symbol blue">▤</span><span class="skill-count">02</span></div><h3>Odoo Development</h3><p>Customize Odoo modules, work with Python-based business logic, and troubleshoot custom addons.</p><div class="skill-pills"><span>Odoo</span><span>Python</span><span>Custom Addons</span><span>Module Configuration</span><span>PostgreSQL</span></div></article>
+        <article class="skill-card reveal"><div class="skill-card-top"><span class="skill-symbol blue">▤</span><span class="skill-count">03</span></div><h3>Databases</h3><p>Work with relational data, maintenance, and troubleshooting.</p><div class="skill-pills"><span>PostgreSQL</span><span>MySQL</span><span>MS SQL Server</span><span>Backup & Restore</span><span>Index Optimization</span></div></article>
+        <article class="skill-card reveal"><div class="skill-card-top"><span class="skill-symbol green">↗</span><span class="skill-count">04</span></div><h3>DevOps & Delivery</h3><p>Support build, deployment, and infrastructure workflows.</p><div class="skill-pills"><span>Jenkins</span><span>AWS</span><span>Git</span><span>GitLab</span><span>Linux</span><span>Windows Server</span><span>IIS</span><span>Nginx</span></div></article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="projects-heading section-heading reveal"><div><p class="section-index">03 / SELECTED WORK</p><h2>Projects & <span class="muted">practice.</span></h2></div><p class="section-subtitle">A selection of projects and practical areas to showcase. Replace sample descriptions and links with your real repositories and screenshots.</p></div>
+        <div class="projects-grid">
+          <article class="project-card project-featured reveal">
+            <div class="project-art task-art"><div class="art-top"><span class="art-chip">WEB APP</span><span>↗</span></div><div class="task-ui"><div class="task-sidebar"><b>◈ taskflow</b><span class="active">▦ Overview</span><span>☑ My tasks</span><span>◷ Timeline</span></div><div class="task-main"><small>MONDAY, 20 OCT</small><h4>Project overview</h4><div class="task-stats"><i></i><i></i><i></i></div><div class="task-bars"><span></span><span></span><span></span><span></span></div></div></div></div>
+            <div class="project-info"><div class="project-meta"><span>01 / PRODUCTIVITY</span><span class="project-status">PERSONAL PROJECT</span></div><h3>Task Management App</h3><p>A Django-based task management application concept with login, task organization, and a clean dashboard experience.</p><div class="project-tech"><span>Python</span><span>Django</span><span>HTML/CSS</span></div><a class="text-link" href="#contact">Ask about this project <span>↗</span></a></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-art pipeline-art"><div class="art-top"><span class="art-chip">AUTOMATION</span><span>↗</span></div><div class="pipeline"><div class="pipeline-node"><b>⌘</b><span>Git</span></div><i></i><div class="pipeline-node"><b>⚙</b><span>Build</span></div><i></i><div class="pipeline-node"><b>⇧</b><span>Deploy</span></div></div><div class="pipeline-label"><span class="mini-green"></span> CI/CD WORKFLOW</div></div>
+            <div class="project-info"><div class="project-meta"><span>02 / DEVOPS</span><span class="project-status">PRACTICE</span></div><h3>CI/CD Deployment Workflow</h3><p>A deployment workflow concept using source control, Jenkins build jobs, versioned artifacts, and server deployment steps.</p><div class="project-tech"><span>Jenkins</span><span>Git</span><span>AWS</span><span>Windows</span></div><a class="text-link" href="#contact">Ask about this project <span>↗</span></a></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-art database-art"><div class="art-top"><span class="art-chip">DATABASES</span><span>↗</span></div><div class="db-visual"><div class="db-cylinder"><span></span><span></span><span></span></div><div class="db-query"><small>SELECT</small><b> reliability,</b><br><small>FROM</small><b> databases</b><br><small>WHERE</small><b> status = 'healthy';</b></div></div><div class="db-caption">DATA • PERFORMANCE • RECOVERY</div></div>
+            <div class="project-info"><div class="project-meta"><span>03 / DATA</span><span class="project-status">PRACTICE</span></div><h3>Database Operations Toolkit</h3><p>A collection of SQL examples and runbooks for backup and restore, session monitoring, blocking analysis, and index review.</p><div class="project-tech"><span>PostgreSQL</span><span>MS SQL</span><span>MySQL</span></div><a class="text-link" href="#contact">Ask about this project <span>↗</span></a></div>
+          </article>
+        </div>
+        <p class="projects-note"><span>✳</span> These cards are starter examples, not claims of completed production projects. Update them to reflect your actual work.</p>
+      </div>
+    </section>
+
+    <section class="section container resume-section" id="resume">
+      <div class="resume-panel reveal"><div><p class="section-index">04 / RÉSUMÉ</p><h2>Let’s talk about<br><span class="muted">what I can build.</span></h2><p class="resume-copy">Download my résumé to review my development, Odoo, database, and DevOps skills.</p></div><div class="resume-action"><div class="resume-file"><span class="file-icon">PDF</span><span><strong>Suriya V_Resume.pdf</strong><small>PDF résumé</small></span></div><a class="button button-primary" href="assets/Suriya%20V_Resume.pdf" download="Suriya_V_Resume.pdf" id="resumeDownload">Download résumé <span>↓</span></a><p class="resume-hint" id="resumeHint">If the download fails, confirm that assets/Suriya V_Resume.pdf is included when you publish the site.</p></div></div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="section-heading reveal"><p class="section-index">05 / CONTACT</p><h2>Have a good<br><span class="muted">project in mind?</span></h2><p class="section-subtitle">Want to discuss a role, a project, or an idea? Send a message and let's connect.</p><div class="contact-email"><span class="contact-icon">✉</span><div><small>EMAIL ME</small><a href="mailto:your.email@example.com" id="emailLink">your.email@example.com ↗</a></div></div></div>
+        <form class="contact-form reveal" id="contactForm">
+          <label for="name">Your name</label><input id="name" name="name" placeholder="Jane Smith" required>
+          <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="jane@example.com" required>
+          <label for="message">How can I help?</label><textarea id="message" name="message" rows="4" placeholder="Tell me a little about your project..." required></textarea>
+          <button class="button button-primary form-submit" type="submit">Prepare email <span>↗</span></button>
+          <p class="form-note" id="formNote">This form opens your default email app; it does not send or store messages on a server.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">S</span><span>suriya<span class="brand-dot">.</span>dev</span></a><p>Designed with purpose. Built with curiosity.</p><a href="#home" class="back-top">BACK TO TOP ↑</a><small>© <span id="year"></span> Suriya V</small></div></footer>
+</body>
+</html>
